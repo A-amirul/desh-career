@@ -28,9 +28,9 @@ const Navbar = () => {
 	</>
 
 	return (
-		<>
-			<div className="navbar bg-base-100 h-48 mb-4 md:px-52 shadow-lg">
-				<div className="navbar-center mx-auto">
+		<div className="shadow-lg h-48">
+			<div className="navbar max-w-screen-xl mx-auto bg-base-100 mb-4">
+				<div className="navbar-start ">
 					<div className="dropdown">
 						<label tabIndex={0} className="btn btn-ghost lg:hidden">
 							<svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -40,17 +40,17 @@ const Navbar = () => {
 						</ul>
 					</div>
 					<Link to="/" className="text-xl">
-						<img className="h-[80px]" src={logo} alt="" />
+						<img className="h-[90px]" src={logo} alt="" />
 					</Link>
 				</div>
 				<div className="navbar-center hidden lg:flex">
-					<ul className="menu md:pe-52 menu-horizontal font-bold text-xl">
+					<ul className="menu  menu-horizontal font-bold text-xl">
 						{NavItems}
 					</ul>
 				</div>
 
 			</div>
-		</>
+		</div>
 	);
 };
 
