@@ -24,12 +24,12 @@ const Navbar = () => {
 
 		<li><Link style={{ color: activeLink === 'advertise' ? 'red' : 'black' }} onClick={() => handleLinkClick('advertise')} to='/advertise'>Advertise</Link></li>
 
-		<button className="btn bg-red-600 text-white text-lg">Join Now</button>
+		<button className="btn bg-red-600 text-white text-lg normal-case">Join Now</button>
 	</>
 
 	return (
-		<div className="shadow-lg h-48">
-			<div className="navbar max-w-screen-xl mx-auto bg-base-100 mb-4">
+		<div className="shadow-lg h-40 pt-8">
+			<div className="navbar max-w-screen-xl mx-auto bg-base-100 ">
 				<div className="navbar-start ">
 					<div className="dropdown">
 						<label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -44,7 +44,7 @@ const Navbar = () => {
 					</Link>
 				</div>
 				<div className="navbar-center hidden lg:flex">
-					<ul className="menu  menu-horizontal font-bold text-xl">
+					<ul className="menu  menu-horizontal  font-bold text-xl">
 						{NavItems}
 					</ul>
 				</div>
