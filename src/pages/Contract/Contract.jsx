@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import useTitle from "../../useTitle";
 
 const Contract = () => {
+	useTitle("Contract");
 	return (
 		<div className="p-10">
 			<h1 className="text-6xl font-semibold">Contact Us</h1>

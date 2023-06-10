@@ -1,5 +1,8 @@
 import { FaRegEnvelope } from 'react-icons/fa';
+import useTitle from '../../useTitle';
 const Home = () => {
+
+	useTitle("Home");
 	return (
 		<div className='p-10 md:pe-96'>
 			<h1 className="text-6xl font-semibold ">Get Smarter about your <br /> career</h1>
