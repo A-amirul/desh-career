@@ -1,8 +1,8 @@
 import { FaRegEnvelope } from 'react-icons/fa';
 const Home = () => {
 	return (
-		<div className='p-4 md:pe-96'>
-			<h1 className="text-6xl font-semibold pt-6">Get Smarter about your <br /> career</h1>
+		<div className='p-10 md:pe-96'>
+			<h1 className="text-6xl font-semibold ">Get Smarter about your <br /> career</h1>
 			<h5 className="text-xl py-4">Get the <strong>5-minute newsletter</strong> keeping about smart career</h5>
 
 

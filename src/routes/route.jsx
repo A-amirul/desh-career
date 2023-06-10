@@ -4,8 +4,8 @@ import Home from "../pages/Home/Home";
 import Privacy from "../pages/Home/Privacy";
 import TermCondition from "../pages/Home/TermCondition";
 import About from "../pages/Home/About";
-import Contact from "../pages/Contact/Contact";
 import Advertise from "../pages/Home/Advertise";
+import Contract from "../pages/Contract/Contract";
 
 const router = createBrowserRouter([
 	{
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "contact",
-				element:<Contact></Contact>
+				element:<Contract></Contract>
 			},
 			{
 				path: "/advertise",
